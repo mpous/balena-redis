@@ -1,0 +1,12 @@
+version: '2.1'
+
+volumes:
+    redis-data:
+
+services:
+
+  redis:                                                                                        
+      image: redis                                                            
+      volumes:                                                                                    
+        - redis-data:/data                                                                        
+      restart: always       
