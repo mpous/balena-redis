@@ -77,6 +77,7 @@ Get into the `redis` container through the balenaCloud Terminal and type
 
 `redis-cli`
 
-![redis-balena-terminal-cli](https://user-images.githubusercontent.com/173156/163230987-eebd22c9-b215-4735-8f3e-6285734055d4.png)
+![redis-balena-terminal-cli](https://user-images.githubusercontent.com/173156/163231205-81bd5e5f-8b86-4137-a2ea-f7d8d674b40a.png)
+
 
 The CLI from Redis might appear and from there you would be able to start working with Redis. Read more [here](https://redis.io/docs/getting-started/#exploring-redis-with-the-cli).
