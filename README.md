@@ -66,10 +66,17 @@ If you are a balena CLI expert, feel free to use balena CLI.
 
 ## Run Redis on your Raspberry Pi
 
+If Redis deployed properly you should see this on the balenaCloud logs.
+
+![redis-balena-logs](https://user-images.githubusercontent.com/173156/163230933-2f99c0a2-4f2a-4b34-9369-b34577fdbd78.png)
+
+
 ### Get into the Redis CLI
 
 Get into the `redis` container through the balenaCloud Terminal and type
 
 `redis-cli`
+
+![redis-balena-terminal-cli](https://user-images.githubusercontent.com/173156/163230987-eebd22c9-b215-4735-8f3e-6285734055d4.png)
 
 The CLI from Redis might appear and from there you would be able to start working with Redis. Read more [here](https://redis.io/docs/getting-started/#exploring-redis-with-the-cli).
