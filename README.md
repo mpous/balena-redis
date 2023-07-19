@@ -84,3 +84,18 @@ Get into the `redis` container through the balenaCloud Terminal and type
 
 
 The CLI from Redis might appear and from there you would be able to start working with Redis. Read more [here](https://redis.io/docs/getting-started/#exploring-redis-with-the-cli).
+
+### Access to the Redis Stack UI
+
+Type your local IP address with the port `8001`.
+
+![Captura de pantalla 2023-07-19 a les 19 23 55](https://github.com/mpous/redis-balena/assets/173156/91a849db-4706-4c47-aff8-8727ea851abc)
+
+
+## Troubleshooting
+
+If you detect any issue using this block, feel free to contact us at the forums.balena.io.
+
+
+## Attribution
+* Thanks to Redis DA [Simon Prickett](https://github.com/simonprickett)
