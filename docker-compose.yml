@@ -1,12 +1,19 @@
 version: '2.1'
 
-volumes:
-    redis-data:
-
 services:
-
-  redis:                                                                                        
-      image: redis                                                            
-      volumes:                                                                                    
-        - redis-data:/data                                                                        
-      restart: always       
+  
+  # ------------------------------------------------------------------------------------
+  # Redis Stack
+  # ------------------------------------------------------------------------------------
+  redis-stack:
+    image: redis/redis-stack:latest
+    ports:
+      - "8001:8001"
+      - "6379:6379"
+    volumes:
+      - local-data:/data
+    privileged: true
+  
+  
+volumes:
+  local-data:
