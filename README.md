@@ -36,7 +36,10 @@ volumes:
   redis-data:
 services:
     redis:
-      image: redis                                                            
+      image: redis/redis-stack:latest
+      ports:
+        - "8001:8001"
+        - "6379:6379"                                                            
       volumes:                                                                               
         - redis-data:/data                                                                        
       restart: always    
