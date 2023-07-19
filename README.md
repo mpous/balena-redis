@@ -1,12 +1,12 @@
-# Run Redis on a balena device
+# Run Redis Stack on a balena device
 
-This is a guide to get started with Redis on a balena IoT device. Deploy it, run and experiment with the Redis server process and add it on your own fleet.
+This is a guide to get started with Redis Stack on a balena IoT device. Deploy it, run and experiment with the Redis server process and add it on your own fleet.
 
 ## Run it as a block
 
 We maintain images for this block on balenaHub Container Registry. The images can be accessed using:
 
-`bh.cr/marc6/redis<arch>` at the moment only available on `aarch64`.
+`bh.cr/marc6/redis<arch>` at the moment only available on `aarch64` and `x86`.
 
 For details on how to select a specific version or commit version of the image see our [documentation](https://www.balena.io/blog/improving-device-image-management-workflow-balenaHub-Container-Registry/).
 
@@ -15,8 +15,8 @@ For details on how to select a specific version or commit version of the image s
 
 ### Hardware
 
-* Raspberry Pi 4
-* SD card 
+* Raspberry Pi 4 or x86 device
+* SD card or USB stick
 * Power supply and (optionally) ethernet cable
 
 ### Software
